@@ -108,7 +108,7 @@
 #     password = st.text_input("Password", type="password")
 
 #     if st.button("Login"):
-#         if username == "admin" and password == "1234":
+#         if username == "Bruce" and password == "1234":
 #             st.session_state["authenticated"] = True
 #             st.success("Login successful. Please wait...")
 #             st.experimental_rerun()
@@ -207,7 +207,7 @@ def login():
 
     if st.button("Login"):
         st.session_state["login_attempted"] = True
-        if username == "admin" and password == "1234":
+        if username == "Bruce" and password == "1234":
             st.session_state["authenticated"] = True
         else:
             st.session_state["authenticated"] = False

@@ -226,7 +226,7 @@ if not st.session_state["authenticated"]:
 
 
 # Load data
-df = pd.read_excel(cropdata1.xlsx)
+df = pd.read_excel("crop_data1.xlsx")
 
 # Title
 st.title("🌾 Crop Yield Optimization Dashboard")

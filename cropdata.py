@@ -255,7 +255,7 @@ st.header("🤖 Yield Predictor")
 
 # Prepare features and model
 X = df[["Rain Fall (mm)", "Fertilizer", "Temperatue", "Nitrogen (N)", "Phosphorus (P)", "Potassium (K)"]]
-y = df["Yeild (Q/acre)"]
+y = df["Yield (Q/acre)"]
 model = LinearRegression()
 model.fit(X, y)
 

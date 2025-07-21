@@ -245,10 +245,10 @@ st.header("📊 Data Overview")
 st.write("Sample of data:")
 st.dataframe(df.head())
 
-st.subheader("Correlation Heatmap")
-fig, ax = plt.subplots()
-sns.heatmap(df.corr(numeric_only=True), annot=True, cmap="YlGnBu", ax=ax)
-st.pyplot(fig)
+# st.subheader("Correlation Heatmap")
+# fig, ax = plt.subplots()
+# sns.heatmap(df.corr(numeric_only=True), annot=True, cmap="YlGnBu", ax=ax)
+# st.pyplot(fig)
 
 # --- Section 2: Yield Predictor ---
 st.header("🤖 Yield Predictor")
